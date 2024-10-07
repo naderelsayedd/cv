@@ -24,6 +24,10 @@ li{
 
 @media (max-width : 600px) {
     li{
-        list-style-type: none;
+        list-style-type: none !important;
     }
+    .projects {
+        overflow: hidden;
+    }
+    
 }
